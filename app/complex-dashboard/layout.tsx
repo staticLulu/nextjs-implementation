@@ -27,6 +27,8 @@ export default function DashboardLayout({
       </div>
     </div>
   ) : (
-    login
+    <div>
+      {login}
+    </div>
   )
 }
